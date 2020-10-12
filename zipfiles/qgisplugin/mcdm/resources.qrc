@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/MCDM" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>

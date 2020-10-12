@@ -1,0 +1,18 @@
+0 thru a	= 1
+a thru 2a	= 2
+2a thru 3a	= 3
+3a thru 4a  = 4
+4a thru 5a  = 5
+
+processing.run("grass7:r.reclass", {'input':'C:/Users/Prasadi/AppData/Local/Temp/tmphwpay2zu/Rasterclip.tif',\
+'rules':'C:/Users/Prasadi/Desktop/tests/rules.txt',\
+'txtrules':'',\
+'output':'C:/Users/Prasadi/AppData/Local/Temp/processing_81fbe9a645bb4ea8a171294a329d72c0/e4a0d3023aad49beaa36dbae2e3f7943/output.tif',\
+'GRASS_REGION_PARAMETER':'199647.82427947974,204681.98441158095,164429.30559307119,176876.01571690888 [USER:100000]',\
+'GRASS_REGION_CELLSIZE_PARAMETER':25,\
+'GRASS_RASTER_FORMAT_OPT':'','GRASS_RASTER_FORMAT_META':''})
+
+processing.run("grass7:r.resample", {'input':,\
+'output':,\
+'GRASS_RASTER_FORMAT_OPT':'',\
+'GRASS_RASTER_FORMAT_META':''})
